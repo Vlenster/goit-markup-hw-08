@@ -80,11 +80,11 @@
     @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -28px;}
+    margin-left: -30px;}
 }
 
 .project-list-item {
-    margin-left: 29px;
+    
     background: #FFFFFF;
     box-sizing: border-box;
     max-width: 450px;
@@ -98,7 +98,7 @@
         margin-left: 30px;
     }
     @media screen and (min-width: 1200px) {
-        
+        margin-left: 30px;
         max-width: 370px;}
     &:hover .project-cover-text {
         transform: translateY(0);

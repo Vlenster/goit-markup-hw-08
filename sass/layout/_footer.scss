@@ -9,7 +9,7 @@
 
 .footer-all {
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -72,7 +72,14 @@
     color: #ffffff;
 }
 
-
+.footer-addres-name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+   
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
 .footer-mail {
     font-weight: 400;
@@ -260,7 +267,7 @@
     background-color: #2196F3;
     border-radius: 4px;
     border-color: transparent;
-
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: inline-block;
